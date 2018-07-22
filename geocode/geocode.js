@@ -1,5 +1,4 @@
 const request=require('request');
-var lati,long;
 var geocodeAddress = (address,callback)=>{
 var encodedAddress = encodeURIComponent(address);
 
